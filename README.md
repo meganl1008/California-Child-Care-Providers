@@ -140,6 +140,6 @@ SELECT t1.zip_code, t3.zip, COUNT(*) as zip_code_count
 
 ## Tradeoffs
 - Improve code for better performance
-- Design extensive QA plan to ensure there aren't any additional duplicates (mispelling, abbreviations, etc)
+- Design extensive QA plan to ensure there aren't any additional duplicates (misspelling, abbreviations, etc)
 - Confirm SQL queries by cross checking and performing same analysis in Python 
 
